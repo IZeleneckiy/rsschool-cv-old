@@ -24,3 +24,10 @@ static boolean isCorrectCoordinates () {
         return false;
     }
 ```
+
+**Education**\
+Volgograd College of Economics and Technology\
+Java course on JavaRush.ru
+
+**English**\
+Pre-intermediate (A2)
