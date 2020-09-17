@@ -1,0 +1,25 @@
+code{
+    display:inline-block;
+    text-align: left;
+}
+
+ul{
+    display:inline-block;
+}
+
+li{
+    text-align: left;
+}
+
+.content {
+    text-align:center;
+    margin: auto;
+}
+
+.contacts {
+    margin: auto;
+}
+
+table {
+    text-align: left;
+}
