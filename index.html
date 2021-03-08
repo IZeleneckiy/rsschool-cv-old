@@ -4,51 +4,61 @@
     <meta charset=UTF-8>
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-    <title>Hello World!</title>
+    <title>CV</title>
   </head>
   <body>
-    <div class="content">
     <h1>Ivan Zeleneckiy</h1>
-    <h2>Contacts</h2>
-    <table  class="contacts">
-        <tbody>
-            <tr>
-                <td><i>Email:</i></td>
-                <td><a href="mailto:izeleneckiy@gmail.com">izeleneckiy@gmail.com</a></td>
-            </tr>
-            <tr>
-                <td><i>Telegram:</i></td>
-                <td>@izeleneckiy</td>
-            </tr>
-            <tr>
-                <td><i>Phone:</i></td>
-                <td>+7(995)419-95-41</td>
-            </tr>
-        </tbody>
-    </table>
-    <h2>Summary</h2>
-    <p>I want to finish JavaScript/Front-end Course and find a job.</p>
-    <h2>Skills</h2>
-    <ul>
-    <li>basic JS</li>
-    <li>basic HTML</li>
-    <li>basic CSS</li>
-    <li>Java</li>
-    </ul>
-    <h2>Code samples</h2>
-    <pre><code>static boolean isCorrectCoordinates () {
-        if (coordinates.getX() &gt;= 0 &amp; coordinates.getX() &lt; 3 &amp;
-            coordinates.getY() &gt;= 0 &amp; coordinates.getY() &lt; 3) {
-                return true;
-            }
-            return false;
-        }
-    </code></pre>
-    <h2>Education</h2>
-    <p>Volgograd College of Economics and Technology</p>
-    <p>Java course on <a href="http://JavaRush.ru">JavaRush.ru</a></p>
-    <h2>English</h2>
-    <p>Pre-intermediate (A2)</p>
-    </div>
+    <main class="content">
+        <article class="photo">
+            <div>
+                <img src="photo.png" alt="photo" width="200">
+            </div>
+            <div class="name">
+                <h2>Ivan</h2>
+                <h2>Zeleneckiy</h2>
+            </div>
+        </article>
+        
+        
+        <h3>Contacts</h3>
+        <ul>
+            <li>Email: <a href="mailto:izeleneckiy@gmail.com">izeleneckiy@gmail.com</a></li>
+            <li>Telegram: <a href="tg://resolve?domain=@izeleneckiy">@izeleneckiy</a></li>
+            <li>Phone: <a href="tel:+74951234567">+7 (995) 419-95-41</a></li>
+        </ul>
+        <h3>Summary</h3>
+        <p>I want to finish JavaScript/Front-end Course and find a job.</p>
+        <h3>Skills</h3>
+        <ul>
+            <li>basic JS</li>
+            <li>basic HTML</li>
+            <li>basic CSS</li>
+            <li>Java</li>
+        </ul>
+        <details>
+            <summary>Code samples </summary>
+            <pre><code>static boolean isCorrectCoordinates () {
+                if (coordinates.getX() &gt;= 0 &amp; coordinates.getX() &lt; 3 &amp;
+                    coordinates.getY() &gt;= 0 &amp; coordinates.getY() &lt; 3) {
+                        return true;
+                    }
+                    return false;
+                }
+            </code></pre>
+        </details>        
+        <h3>Education</h3>
+        <p>Volgograd College of Economics and Technology</p>
+        <p>Java course on <a href="http://JavaRush.ru">JavaRush.ru</a></p>
+        <h3>English</h3>
+        <p>Pre-intermediate (A2)</p>
+    </main>
+    <footer>
+        <ul class="footer">
+            <li><a href="https://github.com/IZeleneckiy"><svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg></a></li>
+            <li><time datetime="2021-03-08">2021 г.</time></li>
+            <li><a href="https://rs.school"><img src="logo-rsschool3.png" alt="RS School logo" height="25"></a></li>
+            <li></li>
+        </ul>
+    </footer>
   </body>
 </html>
